@@ -28,7 +28,13 @@
     </form>
   </div>
 </main>
-
+<script>
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("./service-worker.js")
+    .then(() => console.log("PWA ativo"))
+    .catch(err => console.log(err));
+}
+</script>
 
 </body>
 </html>
