@@ -1,0 +1,32 @@
+@charset "UTF-8";
+--root{
+  --cor1: #d9d9d9;
+}
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+h1{
+  text-align: center;
+}
+.container{
+  border-radius: 10px;
+  background-color: #d9d9d9;
+  display: flex;
+  width:80vw;
+  margin: auto;
+  flex-flow: column wrap;
+  align-items: center;
+}
+button{
+  background-color: green;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 8px;
+  width: 100%;
+}
